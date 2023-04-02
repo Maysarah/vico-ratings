@@ -9,48 +9,48 @@ Api's list :
 -Client API's includes "get all clients" and "create new client"
           - Get all clients : method : GET , url: {baseUrl}/clients 
              response example : [
-            {
-                "id": 1,
-                "firstName": "Maysarah",
-                "lastName": "Abu Eloun",
-                "userName": "maysarah",
-                "created": "2018-02-21T12:00:00+03:00"
-            },
-            {
-                "id": 2,
-                "firstName": "Maysarano",
-                "lastName": "Adriano",
-                "userName": "medo",
-                "created": "2023-03-30T14:13:56+03:00"
-            },
-            ]
+                                          {
+                                              "id": 1,
+                                              "firstName": "Maysarah",
+                                              "lastName": "Abu Eloun",
+                                              "userName": "maysarah",
+                                              "created": "2018-02-21T12:00:00+03:00"
+                                          },
+                                          {
+                                              "id": 2,
+                                              "firstName": "Maysarano",
+                                              "lastName": "Adriano",
+                                              "userName": "medo",
+                                              "created": "2023-03-30T14:13:56+03:00"
+                                          },
+                                ]
 
         -Create new client : method : POST , url: {baseUrl}/clients 
           request example : {
-              "first_name": "Maysarah",
-              "last_name": "Abu Eloun",
-              "username": "maysarah_2",
-              "password": "test1"
-            } 
+                                  "first_name": "Maysarah",
+                                  "last_name": "Abu Eloun",
+                                  "username": "maysarah_2",
+                                  "password": "test1"
+                              } 
     
 -Vico API's includes "get all vicos" and "create new vico" 
           - Get all vicos : method : GET , url: {baseUrl}/vicos 
              response example : [ 
-            {
-                "id": 1,
-                "name": "leonardo",
-                "created": "2023-03-30T14:57:47+03:00"
-            },
-            {
-                "id": 2,
-                "name": "kww",
-                "created": "2023-03-30T15:13:43+03:00"
-            },
-        ]
-        -Create new vico : method : POST , url: {baseUrl}/vicos 
-          request example : {
-              "name": "Maysarah",
-            } 
+                                          {
+                                              "id": 1,
+                                              "name": "leonardo",
+                                              "created": "2023-03-30T14:57:47+03:00"
+                                          },
+                                          {
+                                              "id": 2,
+                                              "name": "kww",
+                                              "created": "2023-03-30T15:13:43+03:00"
+                                          },
+                                ]
+           -Create new vico : method : POST , url: {baseUrl}/vicos 
+                    request example : {
+                                          "name": "Maysarah",
+                                      } 
     
  -Project API's includes "get all projects" and "create new project" 
           - Get all vicos : method : GET , url: {baseUrl}/projects 
