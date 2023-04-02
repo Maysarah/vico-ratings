@@ -45,6 +45,10 @@ class RatingTypeController extends AbstractController
     {
         $data = json_decode($request->getContent());
 
+        $ratingType = $this->entityManager->getRepository(RatingTypes::class)->findBy(['code'=>$data->code]);
+        if ($ratingType) {
+            throw new NotFoundHttpException('rating type already exist');
+        }
         $ratingTypes = new RatingTypes();
         $ratingTypes->setCode($data->code);
         $ratingTypes->setDisplay($data->display);
