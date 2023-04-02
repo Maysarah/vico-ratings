@@ -6,8 +6,8 @@ Before begin there are some important notes:
 these database need to be added before statr working on APIs.
 
 Api's list :
--Client API's includes "get all clients" and "create new client"
-          - Get all clients : method : GET , url: {baseUrl}/clients 
+-Client API's includes "get all clients" and "create new client":
+          - Get all clients : method : GET , url: {baseUrl}/clients :
              response example : [
                                           {
                                               "id": 1,
