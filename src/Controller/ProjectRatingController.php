@@ -26,7 +26,7 @@ class ProjectRatingController extends AbstractController
     }
 
     /**
-     * This function all projects with all ratings related.
+     * This function to get all projects with all ratings related.
      *
      * @return Response all projects.
      */
@@ -39,7 +39,7 @@ class ProjectRatingController extends AbstractController
     }
 
     /**
-     * This function all ratings related to a specific project.
+     * This function to get all ratings related to a specific project.
      *
      * @return Response all ratings.
      */
